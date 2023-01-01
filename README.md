@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-tMNyQGJe17](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-tMNyQGJe17)
+- Live Site URL: [https://seranela.github.io/fylo-dark-theme-landing-page/](https://seranela.github.io/fylo-dark-theme-landing-page/)
 
 ## My process
 
