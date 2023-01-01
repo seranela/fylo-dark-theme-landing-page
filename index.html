@@ -1,106 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="description" content="Frontend Mentor Challenge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
+
 <body>
-  Features
-  Team
-  Sign In
+	<header class="header">
+		<div class="header-container">
+			<img src="images/logo.svg" alt="" width="176" height="52" class="header-logo">
+			<nav id="nav-header" class="nav-header">
+				<ul id="nav-header-list" class="nav-header-list">
+					<li><a href="#" class="nav-header-list-link">Features</a></li>
+					<li><a href="#" class="nav-header-list-link">Team</a></li>
+					<li><a href="#" class="nav-header-list-link">Sign In</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-  All your files in one secure location, accessible anywhere.
+	<main>
+		<section class="section intro">
+			<div class="intro-container">
+				<img src="images/illustration-intro.png" alt="" width="720" height="534" class="intro-image">
+				<h1>All your files in one secure location, accessible anywhere.</h1>
+				<p>Fylo stores all your most important files in one secure location. Access them wherever
+					you need, share and collaborate with friends family, and co-workers.</p>
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+				<a href="#" class="link-button link-button-intro">Get Started</a>
+			</div>
+		</section>
 
-  Get Started
+		<section class="section offers">
+			<h2 class="sr-only">What We Offer</h2>
 
-  Access your files, anywhere
+			<div class="offer">
+				<div class="offer-image-container">
+					<img src="images/icon-access-anywhere.svg" alt="" width="83" height="78" class="offer-image">
+				</div>
+				<h3>Access your files, anywhere</h3>
+				<p>The ability to use a smartphone, tablet, or computer to access your account means your
+					files follow you everywhere.</p>
+			</div>
+			<div class="offer">
+				<div class="offer-image-container">
+					<img src="images/icon-security.svg" alt="" width="70" height="88" class="offer-image">
+				</div>
+				<h3>Security you can trust</h3>
+				<p>2-factor authentication and user-controlled encryption are just a couple of the security
+					features we allow to help secure your files.</p>
+			</div>
+			<div class="offer">
+				<div class="offer-image-container">
+					<img src="images/icon-collaboration.svg" alt="" width="86" height="71" class="offer-image">
+				</div>
+				<h3>Real-time collaboration</h3>
+				<p>Securely share files and folders with friends, family and colleagues for live collaboration.
+					No email attachments required.</p>
+			</div>
+			<div class="offer">
+				<div class="offer-image-container">
+					<img src="images/icon-any-file.svg" alt="" width="91" height="64" class="offer-image">
+				</div>
+				<h3>Store any type of file</h3>
+				<p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+					file types to be securely stored and shared.</p>
+			</div>
+		</section>
 
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
+		<section class="section productivity">
+			<img src="images/illustration-stay-productive.png" alt="" width="615" height="465" class="productivity-image">
 
-  Security you can trust
+			<div class="productivity-context">
+				<h2>Stay productive, wherever you are</h2>
+				<p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+					storage needs.</p>
+				<p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
+					attachments required.</p>
 
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
+				<a href="#" class="link-with-arrow">See how Fylo works <img src="images/icon-arrow.svg" alt="" width="16" height="16" class="link-arrow-image"></a>
+			</div>
+		</section>
 
-  Real-time collaboration
+		<section class="section testimonials">
+			<h2 class="sr-only">Testimonials</h2>
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
+			<blockquote id="testimonial1" class="testimonial">
+				<p class="testimonial-quote">
+					Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+					become a well-oiled collaboration machine.
+				</p>
+				<footer class="testimonial-footer">
+					<img src="images/profile-1.jpg" alt="Photo of Satish Patel" width="128" height="128" class="testimonial-picture">
+					<cite class="testimonial-cite">
+						<span class="testimonial-person">Satish Patel</span> <span class="testimonial-type">Founder &amp; CEO, Huddle</span>
+					</cite>
+				</footer>
+			</blockquote>
 
-  Store any type of file
+			<blockquote id="testimonial2" class="testimonial">
+				<p class="testimonial-quote">
+					Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+					become a well-oiled collaboration machine.
+				</p>
+				<footer class="testimonial-footer">
+					<img src="images/profile-2.jpg" alt="Photo of Bruce McKenzie" width="128" height="128" class="testimonial-picture">
+					<cite class="testimonial-cite">
+						<span class="testimonial-person">Bruce McKenzie</span> <span class="testimonial-type">Founder &amp; CEO, Huddle</span>
+					</cite>
+				</footer>
+			</blockquote>
 
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
+			<blockquote id="testimonial3" class="testimonial">
+				<p class="testimonial-quote">
+					Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+					become a well-oiled collaboration machine.
+				</p>
+				<footer class="testimonial-footer">
+					<img src="images/profile-3.jpg" alt="Photo of Iva Boyd" width="128" height="128" class="testimonial-picture">
+					<cite class="testimonial-cite">
+						<span class="testimonial-person">Iva Boyd</span> <span class="testimonial-type">Founder &amp; CEO, Huddle</span>
+					</cite>
+				</footer>
+			</blockquote>
+		</section>
 
-  Stay productive, wherever you are
+		<section class="section access">
+			<div class="access-container">
+				<h2 class="access-heading">Get early access today</h2>
+				<p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+					questions, our support team would be happy to help you.</p>
 
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-  storage needs.
+				<form action="#" method="post" class="access-form">
+					<label for="email" class="sr-only">Email Address</label>
+					<input type="email" name="email" id="email" placeholder="email@example.com" required class="access-input">
+					<p id="input-error" class="input-error">Please enter a valid email address</p>
+					<button type="submit" id="submit-button" class="access-button">Get Started For Free</button>
+				</form>
+			</div>
+		</section>
+	</main>
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-  attachments required.
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-logo-container">
+				<img src="images/logo.svg" alt="" width="176" height="52" class="footer-logo">
+			</div>
 
-  See how Fylo works
+			<address class="company-info-container">
+				<ul class="contact-list">
+					<li class="contact-list-address">
+						<a href="#" class="contact-link">
+							123 Lorem Ipsum Rd.<br>
+							Lorem Ipsum, LI 12345
+						</a>
+					</li>
+					<li class="contact-list-telephone">
+						<a href="tel:+15431234567" class="contact-link">+1-543-123-4567</a>
+					</li>
+					<li class="contact-list-email">
+						<a href="mailto:example@fylo.com" class="contact-link">example@fylo.com</a>
+					</li>
+				</ul>
+			</address>
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
+			<nav class="footer-nav">
+				<ul class="footer-nav-list">
+					<li><a href="#" class="footer-nav-link">About Us</a></li>
+					<li><a href="#" class="footer-nav-link">Jobs</a></li>
+					<li><a href="#" class="footer-nav-link">Press</a></li>
+					<li><a href="#" class="footer-nav-link">Blog</a></li>
+				</ul>
+				<ul class="footer-nav-list">
+					<li><a href="#" class="footer-nav-link">Contact Us</a></li>
+					<li><a href="#" class="footer-nav-link">Terms</a></li>
+					<li><a href="#" class="footer-nav-link">Privacy</a></li>
+				</ul>
+			</nav>
 
-  Satish Patel
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Bruce McKenzie
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Iva Boyd
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+			<!-- Social Links -->
+			<section class="social-links">
+				<h3 class="sr-only">Social Links</h3>
+				<a href="#" class="social-link" aria-labelledby="social-icon-title-facebook">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="social-icon">
+						<title id="social-icon-title-facebook">Share via Facebook</title>
+						<path fill="#FFFFFF" class="social-icon-path" d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+					</svg>
+				</a>
+				<a href="#" class="social-link" aria-labelledby="social-icon-title-twitter">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="social-icon">
+						<title id="social-icon-title-twitter">Share via Twitter</title>
+						<path fill="#FFFFFF" class="social-icon-path" d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+					</svg>
+				</a>
+				<a href="#" class="social-link" aria-labelledby="social-icon-title-instagram">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="social-icon">
+						<title id="social-icon-title-instagram">Share via Instagram</title>
+						<path fill="#FFFFFF" class="social-icon-path" d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+						<path fill="#FFFFFF" class="social-icon-path" d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+						<path fill="#FFFFFF" class="social-icon-path" d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+					</svg>
+				</a>
+			</section>
+		</div>
+	</footer>
+	<script src="js/default.js"></script>
 </body>
+
 </html>
